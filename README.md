@@ -62,7 +62,6 @@ job "java" {
         memory = 256
         network {
           mbits = 10
-          reserved_ports = [8080]
         }
       }
     }
